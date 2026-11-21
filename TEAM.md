@@ -13,7 +13,7 @@
 | --: | ----------- | ----------- | ----- | ------ | ------------------------------------------ |
 |   1 |             |             |       |        |                                            |
 |   2 | Nguyễn Ngọc Hiếu | 2A202603502 |       |        | Kỹ sư Dữ liệu & Lập trình (Người viết code: src/lab13.py) |
-|   3 |             |             |       |        |                                            |
+|   3 | Vũ Mạnh Hoạch | 2A202603500 | 26ai.hoachvm@vinuni.edu.vn | vumanhhoach2003 | Chuyên viên Phân tích Chi phí (TV3 - Cost & Economics Analyst) |
 |   4 | Hồ Văn Dũng | 2A202603458 |       |        | Chuyên viên đánh giá lỗi, người gắn nhãn 1 |
 |   5 |             |             |       |        |                                            |
 
@@ -75,3 +75,26 @@ Sao chép mục dưới đây cho từng thành viên.
 
 - [Bảng lỗi và cách khắc phục](report/team/bang_loi.md)
 - [Báo cáo cá nhân](report/team/2A202603458_HoVanDung.md)
+
+## VuManhHoach-2A202603500
+
+### Phần việc phụ trách
+
+- **Vai trò:** Chuyên viên Phân tích Chi phí (Cost & Economics Analyst - TV3) / Người kiểm số độc lập.
+- **File phụ trách:** `report/team/bang_chi_phi.md`, mục E2 trong `report/team/chi_so.md`.
+- **Nhiệm vụ:**
+  - Nhiệm vụ A: Phân tích mô hình chi phí từ trace A1–A4, tính chi phí cố định 40tr/tháng cho phạm vi `noi_dia` + `hang_nang`.
+  - Nhiệm vụ B: Phân tích bảng 9 kịch bản độ nhạy B1, đổi một cặp B2, tối ưu chi phí cả hệ thống B3 và kịch bản xem lại 100% B4.
+  - Nhiệm vụ E2: Soạn thảo 3 kịch bản rủi ro kinh tế trong `report/team/chi_so.md`.
+  - Cung cấp số liệu mục 1, 2, 3 và 7 cho `report/team/ho_so_launch_v0.md`.
+
+### Đóng góp cụ thể
+
+- Hoàn thiện 100% nội dung phân tích trong `report/team/bang_chi_phi.md` với đầy đủ số liệu và nhãn `[simulated]`.
+- Phân tích sự đánh đổi chi phí cả hệ thống (B3): chỉ ra mức giới hạn 2 lần chạy rẻ nhất toàn công ty (6.901.220 đ [simulated]).
+- Phân tích rủi ro xem lại 100% (B4) và xây dựng 3 kịch bản rủi ro kinh tế (E2) cho Gate 2a.
+
+### Bằng chứng
+
+- [Bảng chi phí · Nhiệm vụ A và B](report/team/bang_chi_phi.md)
+- [Báo cáo cá nhân](report/team/2A202603500_VuManhHoach.md)
