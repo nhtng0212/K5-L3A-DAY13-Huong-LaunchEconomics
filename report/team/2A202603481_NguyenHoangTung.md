@@ -1,12 +1,10 @@
 # Báo cáo cá nhân — Nguyễn Hoàng Tùng
 
-> **Lưu ý:** Đổi tên file này thành `<MSSV>_NguyenHoangTung.md` (ví dụ `20241234_NguyenHoangTung.md`) theo đúng cú pháp bài nộp khi điền MSSV chính thức.
-
 ## 1. Thông tin thành viên
 
 - Họ tên: Nguyễn Hoàng Tùng
-- MSSV: [Điền MSSV của bạn vào đây]
-- Email: nguyentungpcbv@gmail.com
+- MSSV: 2A202603481
+- Email: 26ai.tungnh3@vinuni.edu.vn
 - Vai trong nhóm: Nhóm trưởng (TV1), Kiến trúc sư Pilot (Pilot Architect), Chủ trì Duyệt chéo Gate 2a.
 
 ## 2. Phần việc phụ trách

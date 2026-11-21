@@ -11,7 +11,7 @@
 
 | STT | Họ tên           | MSSV        | Email                            | GitHub                                 | Vai trò                                                        |
 | --: | ---------------- | ----------- | -------------------------------- | -------------------------------------- | -------------------------------------------------------------- |
-|   1 | Nguyễn Hoàng Tùng| [Điền MSSV] | nguyentungpcbv@gmail.com         | nhtng0212                              | Nhóm trưởng & Kiến trúc sư Pilot (Lead / Pilot Architect, TV1) |
+|   1 | Nguyễn Hoàng Tùng| 2A202603481 | 26ai.tungnh3@vinuni.edu.vn         | nhtng0212                              | Nhóm trưởng & Kiến trúc sư Pilot (Lead / Pilot Architect, TV1) |
 |   2 | Nguyễn Ngọc Hiếu | 2A202603502 |                                  |                                        | Kỹ sư Dữ liệu & Code (Data / Code Specialist, TV2)             |
 |   3 | Vũ Mạnh Hoạch    | 2A202603500 | 26ai.hoachvm@vinuni.edu.vn       | vumanhhoach2003                        | Chuyên viên Phân tích Chi phí (Cost & Economics Analyst, TV3)  |
 |   4 | Hồ Văn Dũng      | 2A202603458 | hdung7047@gmail.com              | [DungZai](https://github.com/DungZai)  | Chuyên viên đánh giá lỗi, người gắn nhãn 1 (TV4)               |
@@ -37,7 +37,7 @@ Ví dụ: `report/team/2A202603471_NguyenVanTung.md`.
 
 ---
 
-## Nguyễn Hoàng Tùng ([Điền MSSV])
+## Nguyễn Hoàng Tùng (2A202603481)
 
 ### Phần việc phụ trách
 
@@ -59,7 +59,7 @@ Ví dụ: `report/team/2A202603471_NguyenVanTung.md`.
 
 - [Kế hoạch pilot (pilot_plan.yaml)](report/team/pilot_plan.yaml)
 - [Bảng phân công nhóm tác chiến (PHAN_CONG_NHOM.md)](PHAN_CONG_NHOM.md)
-- [Báo cáo cá nhân](report/team/MSSV_NguyenHoangTung.md)
+- [Báo cáo cá nhân](report/team/2A202603481_NguyenHoangTung.md)
 
 ---
 
