@@ -9,12 +9,12 @@
 
 ## Thành viên
 
-| STT | Họ tên | MSSV | Email | GitHub | Vai trò |
-| --: | ------ | ---- | ----- | ------ | ------- |
-|   1 |        |      |       |        |         |
-|   2 |        |      |       |        |         |
-|   3 |        |      |       |        |         |
-|   4 |        |      |       |        |         |
+| STT | Họ tên      | MSSV        | Email | GitHub | Vai trò                                    |
+| --: | ----------- | ----------- | ----- | ------ | ------------------------------------------ |
+|   1 |             |             |       |        |                                            |
+|   2 |             |             |       |        |                                            |
+|   3 |             |             |       |        |                                            |
+|   4 | Hồ Văn Dũng | 2A202603458 |       |        | Chuyên viên đánh giá lỗi, người gắn nhãn 1 |
 
 Bốn vai của lab:
 
@@ -50,3 +50,18 @@ Sao chép mục dưới đây cho từng thành viên.
 ### Bằng chứng
 
 -
+
+## Hồ Văn Dũng (2A202603458)
+
+### Phần việc phụ trách
+
+- TV4, phụ trách phân loại và đánh giá lỗi trong nhiệm vụ C.
+
+### Đóng góp cụ thể
+
+- Tổng hợp 20 nhãn có đối chiếu hướng dẫn Lab, ghi căn cứ từng ca và đề xuất 5 biện pháp khắc phục có cách phát hiện đo được.
+
+### Bằng chứng
+
+- [Bảng lỗi và cách khắc phục](report/team/bang_loi.md)
+- [Báo cáo cá nhân](report/team/2A202603458_HoVanDung.md)
