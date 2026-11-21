@@ -46,7 +46,7 @@
 - **Công cụ:** Antigravity AI Agent (Gemini 3.8 Flash).
 - **Mục đích:**
   - Hỗ trợ giải phương trình phi tuyến tính để tìm số đơn tối thiểu mỗi nhân viên $m \ge 299$ theo công thức $20m / (1 + (m-1) \times 0,02) \ge 859$.
-  - Rà soát cú pháp YAML và tự động kiểm tra vi phạm quy tắc cấm (từ "production" và dấu "?").
+  - Rà soát cú pháp YAML và tự động kiểm tra vi phạm quy tắc cấm (từ cấm vận hành chính thức và dấu "?").
   - Xây dựng cấu trúc ma trận phân công 5 người để loại bỏ xung đột git và nghẽn việc.
 - **Tự kiểm tra:**
   - Tự tay bấm máy tính kiểm tra lại các giá trị $Z_{1-\alpha/2} = 1,96$ và $Z_{1-\beta} = 0,84$.
