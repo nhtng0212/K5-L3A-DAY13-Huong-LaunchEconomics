@@ -18,7 +18,7 @@ Tóm tắt cách nhóm làm từng nhiệm vụ A–E và link tới file hồ s
 
 - **Nhiệm vụ A · Mô hình chi phí từ trace ([bang_chi_phi.md](bang_chi_phi.md)):** Xây dựng hàm `mo_hinh` tính chi phí thật cho mỗi yêu cầu thành công từ trace, bao gồm chi phí token, tool, thời gian nhân viên xem lại và làm lại. Phân rã theo 4 phân khúc (`noi_dia`, `hang_nang`, `quoc_te`, `doi_tac`) và đánh giá chi phí cố định 40 triệu đ/tháng.
 - **Nhiệm vụ B · Bảng độ nhạy & Tối ưu kinh tế hệ thống ([bang_chi_phi.md](bang_chi_phi.md)):** Thực hiện 9 kịch bản độ nhạy đơn lẻ và kịch bản đổi một cặp để xác định các yếu tố trọng yếu ảnh hưởng đến ngân sách. Phân tích bài toán giới hạn số lần chạy tối ưu toàn hệ thống (B3) và đánh giá ngưỡng hòa vốn khi phải xem lại 100% (B4).
-- **Nhiệm vụ C · Bảng lỗi và khắc phục ([bang_loi.md](bang_loi.md)):** Hoàn thành bởi TV4 (Hồ Văn Dũng) và TV5 (Nguyễn Văn Tùng). Gắn nhãn độc lập 20 ca theo Google PAIR đạt tỷ lệ đồng thuận ban đầu 90% (18/20 ca), thống nhất 2 ca lệch và hoàn thiện bảng khắc phục 5 ca đại diện đủ 5 loại lỗi có định danh event telemetry kèm `trace_id`.
+- **Nhiệm vụ C · Bảng lỗi và khắc phục ([bang_loi.md](bang_loi.md))**. TV4 (Hồ Văn Dũng) và TV5 (Nguyễn Văn Tùng) có 18/20 nhãn trùng (90%), đã ghi cách phân loại 2 ca lệch và biện pháp khắc phục cho 5 loại lỗi. Bộ nhãn TV4 có tham chiếu hướng dẫn Lab, nên hồ sơ còn thiếu bằng chứng cho yêu cầu hai bộ nhãn độc lập.
 - **Nhiệm vụ D · Kế hoạch pilot ([pilot_plan.yaml](pilot_plan.yaml)):** Đang cập nhật bởi TV1.
 - **Nhiệm vụ E · Chỉ số và Hồ sơ launch v0 ([chi_so.md](chi_so.md), [ho_so_launch_v0.md](ho_so_launch_v0.md)):** Hoàn thành bởi TV5 (Nguyễn Văn Tùng) và TV3 (Vũ Mạnh Hoạch). Đặc tả và tính toán 3 chỉ số từ 1.200 yêu cầu, thiết lập danh mục 10 event telemetry có `trace_id`, lượng hóa 3 rủi ro kinh tế lớn từ bảng độ nhạy, và tổng hợp hoàn thiện hồ sơ launch v0 một trang chuẩn 7 mục chốt đề xuất Go có điều kiện.
 
@@ -44,7 +44,7 @@ Con số chính (ghi nhãn `simulated` khi cần) và đề xuất cuối của 
 Chi tiết đóng góp của từng thành viên nằm trong `TEAM.md`.
 
 - **Vũ Mạnh Hoạch (TV3 - 2A202603500):** Chịu trách nhiệm 100% Nhiệm vụ A (mô hình chi phí A1–A4) và Nhiệm vụ B (bảng độ nhạy B1–B4), hoàn thiện file `report/team/bang_chi_phi.md`, đóng góp mục E2 (Rủi ro kinh tế) trong `report/team/chi_so.md`, cung cấp các số liệu kinh tế mục 1, 2, 3, 7 cho `report/team/ho_so_launch_v0.md`.
-- **Nguyễn Văn Tùng (TV5 - 2A202603471):** Chịu trách nhiệm chính CP5 (Nhiệm vụ E & duyệt chéo Gate 2a); hoàn thiện 100% `report/team/chi_so.md` (đặc tả 3 chỉ số E1, 10 event có `trace_id`, kiểm tra chéo, rủi ro kinh tế E2), hoàn thiện Hồ sơ Launch v0 1 trang 7 mục (`report/team/ho_so_launch_v0.md`), phối hợp hoàn thiện `report/team/bang_loi.md` (Labeler 2 đạt đồng thuận 90%), và lập phiếu chấm hội đồng Gate 2a (`report/team/phieu_cham.md`).
+- **Nguyễn Văn Tùng (TV5 - 2A202603471):** Chịu trách nhiệm chính CP5 (Nhiệm vụ E & duyệt chéo Gate 2a); hoàn thiện 100% `report/team/chi_so.md` (đặc tả 3 chỉ số E1, 10 event có `trace_id`, kiểm tra chéo, rủi ro kinh tế E2), hoàn thiện Hồ sơ Launch v0 1 trang 7 mục (`report/team/ho_so_launch_v0.md`), phối hợp hoàn thiện `report/team/bang_loi.md` (18/20 nhãn TV5 trùng với TV4), và lập phiếu chấm hội đồng Gate 2a (`report/team/phieu_cham.md`).
 - Các thành viên khác: xem chi tiết tại `TEAM.md`.
 
 ## 7. Hạn chế và hướng cải thiện

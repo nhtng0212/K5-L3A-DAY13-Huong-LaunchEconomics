@@ -14,7 +14,7 @@
 |   1 |                |             |                                 |                 | Nhóm trưởng & Kiến trúc sư Pilot (Lead / Pilot Architect, TV1)  |
 |   2 | Nguyễn Ngọc Hiếu | 2A202603502 |                                 |                 | Kỹ sư Dữ liệu & Code (Data / Code Specialist, TV2)              |
 |   3 | Vũ Mạnh Hoạch   | 2A202603500 | 26ai.hoachvm@vinuni.edu.vn      | vumanhhoach2003 | Chuyên viên Phân tích Chi phí (Cost & Economics Analyst, TV3)   |
-|   4 | Hồ Văn Dũng    | 2A202603458 |                                 |                 | Chuyên viên đánh giá lỗi, người gắn nhãn 1 (TV4)                |
+|   4 | Hồ Văn Dũng    | 2A202603458 |                                 | [DungZai](https://github.com/DungZai) | Chuyên viên đánh giá lỗi, người gắn nhãn 1 (TV4)                |
 |   5 | Nguyễn Văn Tùng | 2A202603471 | tungnv.2a202603471@vinuni.edu.vn |                 | Quản trị Hồ sơ & Chỉ số, người gắn nhãn 2 (TV5)                 |
 
 Bốn vai chính của lab (nhóm 5 người bổ sung vai Quản trị Hồ sơ & Giám sát Chỉ số):
