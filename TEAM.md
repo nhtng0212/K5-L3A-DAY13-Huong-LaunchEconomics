@@ -2,41 +2,40 @@
 
 ## Thông tin nhóm
 
-- Tên nhóm:
-- Lớp: L3A hoặc L3B
-- Repo nhóm: `K5-L3A-DAY13-TenNhom-LaunchEconomics` (xem [SUBMISSION.md](SUBMISSION.md))
+- Tên nhóm: Nhóm 4 (LogiX-VN)
+- Lớp: K5-L3A
+- Repo nhóm: `K5-L3A-DAY13-Huong-LaunchEconomics` (xem [SUBMISSION.md](SUBMISSION.md))
 - URL repo, nhánh nộp, commit chốt:
 
 ## Thành viên
 
-| STT | Họ tên      | MSSV        | Email | GitHub | Vai trò                                    |
-| --: | ----------- | ----------- | ----- | ------ | ------------------------------------------ |
-|   1 |             |             |       |        |                                            |
-|   2 | Nguyễn Ngọc Hiếu | 2A202603502 |       |        | Kỹ sư Dữ liệu & Lập trình (Người viết code: src/lab13.py) |
-|   3 | Vũ Mạnh Hoạch | 2A202603500 | 26ai.hoachvm@vinuni.edu.vn | vumanhhoach2003 | Chuyên viên Phân tích Chi phí (TV3 - Cost & Economics Analyst) |
-|   4 | Hồ Văn Dũng | 2A202603458 |       |        | Chuyên viên đánh giá lỗi, người gắn nhãn 1 |
-|   5 |             |             |       |        |                                            |
+| STT | Họ tên         | MSSV        | Email                           | GitHub          | Vai trò                                                         |
+| --: | -------------- | ----------- | ------------------------------- | --------------- | --------------------------------------------------------------- |
+|   1 |                |             |                                 |                 | Nhóm trưởng & Kiến trúc sư Pilot (Lead / Pilot Architect, TV1)  |
+|   2 | Nguyễn Ngọc Hiếu | 2A202603502 |                                 |                 | Kỹ sư Dữ liệu & Code (Data / Code Specialist, TV2)              |
+|   3 | Vũ Mạnh Hoạch   | 2A202603500 | 26ai.hoachvm@vinuni.edu.vn      | vumanhhoach2003 | Chuyên viên Phân tích Chi phí (Cost & Economics Analyst, TV3)   |
+|   4 | Hồ Văn Dũng    | 2A202603458 |                                 |                 | Chuyên viên đánh giá lỗi, người gắn nhãn 1 (TV4)                |
+|   5 | Nguyễn Văn Tùng | 2A202603471 | tungnv.2a202603471@vinuni.edu.vn |                 | Quản trị Hồ sơ & Chỉ số, người gắn nhãn 2 (TV5)                 |
 
-Bốn vai của lab:
+Bốn vai chính của lab (nhóm 5 người bổ sung vai Quản trị Hồ sơ & Giám sát Chỉ số):
 
-- **Người viết code:** viết và chạy `src/lab13.py`.
-- **Người kiểm số:** tính tay một con số để đối chiếu, điền bảng.
-- **Người gắn nhãn 1:** đọc đề, theo dõi điều kiện "Xong khi"; gắn nhãn 20 ca độc lập ở CP3.
-- **Người gắn nhãn 2, kiêm giữ hồ sơ:** điền `report/team/ho_so_launch_v0.md` từ đầu buổi; gắn nhãn 20 ca độc lập ở CP3.
+- **Người viết code (TV2):** viết và chạy `src/lab13.py`.
+- **Người kiểm số (TV3):** tính tay một con số để đối chiếu, điền bảng chi phí.
+- **Người gắn nhãn 1 (TV4):** đọc đề, theo dõi điều kiện "Xong khi"; gắn nhãn 20 ca độc lập ở CP3.
+- **Người gắn nhãn 2 kiêm giữ hồ sơ & chỉ số (TV5):** gắn nhãn 20 ca độc lập ở CP3, đặc tả chỉ số E1, 10 event có `trace_id`, rủi ro kinh tế E2, hoàn thiện `report/team/ho_so_launch_v0.md` từ đầu buổi.
+- **Nhóm trưởng (TV1):** quản trị kế hoạch pilot `pilot_plan.yaml`, cỡ mẫu D1, D2, luật dừng.
 
 Đổi người viết code sau giờ giải lao, để ít nhất hai người trong nhóm tự tay tính được chi phí.
 
 ## Cá nhân
 
-Mỗi thành viên đồng thời tạo một báo cáo riêng trong `report/` theo dạng:
+Mỗi thành viên đồng thời tạo một báo cáo riêng trong `report/team/` theo dạng:
 
 ```text
 report/team/MSSV_HoTen.md
 ```
 
-Ví dụ: `report/team/20241234_NguyenVanAn.md`.
-
-Sao chép mục dưới đây cho từng thành viên.
+Ví dụ: `report/team/2A202603471_NguyenVanTung.md`.
 
 ## NguyenNgocHieu-2A202603502
 
@@ -61,21 +60,6 @@ Sao chép mục dưới đây cho từng thành viên.
 - File mã nguồn: `src/lab13.py`.
 - Kết quả chạy terminal: Ba phép thử ĐẠT, CPS baseline = 4.472 đ [simulated], 9 kịch bản B1, chi phí hệ thống B3 = 6.901.220 đ [simulated], kết quả D1 (1.251 YC, m >= 299 đơn/người), chỉ số E1 (82,83% chính, 27,12% bỏ qua, 4,25% an toàn).
 
-## Hồ Văn Dũng (2A202603458)
-
-### Phần việc phụ trách
-
-- TV4, phụ trách phân loại và đánh giá lỗi trong nhiệm vụ C.
-
-### Đóng góp cụ thể
-
-- Tổng hợp 20 nhãn có đối chiếu hướng dẫn Lab, ghi căn cứ từng ca và đề xuất 5 biện pháp khắc phục có cách phát hiện đo được.
-
-### Bằng chứng
-
-- [Bảng lỗi và cách khắc phục](report/team/bang_loi.md)
-- [Báo cáo cá nhân](report/team/2A202603458_HoVanDung.md)
-
 ## VuManhHoach-2A202603500
 
 ### Phần việc phụ trách
@@ -96,5 +80,44 @@ Sao chép mục dưới đây cho từng thành viên.
 
 ### Bằng chứng
 
-- [Bảng chi phí · Nhiệm vụ A và B](report/team/bang_chi_phi.md)
+- [Bảng chi phí và phân tích độ nhạy](report/team/bang_chi_phi.md)
 - [Báo cáo cá nhân](report/team/2A202603500_VuManhHoach.md)
+
+## Hồ Văn Dũng (2A202603458)
+
+### Phần việc phụ trách
+
+- TV4, phụ trách phân loại và đánh giá lỗi trong nhiệm vụ C.
+
+### Đóng góp cụ thể
+
+- Tổng hợp 20 nhãn có đối chiếu hướng dẫn Lab, ghi căn cứ từng ca và đề xuất 5 biện pháp khắc phục có cách phát hiện đo được.
+
+### Bằng chứng
+
+- [Bảng lỗi và cách khắc phục](report/team/bang_loi.md)
+- [Báo cáo cá nhân](report/team/2A202603458_HoVanDung.md)
+
+## Nguyễn Văn Tùng (2A202603471)
+
+### Phần việc phụ trách
+
+- TV5 — Quản trị Hồ sơ & Chỉ số, Người gắn nhãn 2 (Labeler 2).
+- Chịu trách nhiệm hoàn thiện **Checkpoint 5 (CP5)**: Nhiệm vụ E1 (Đặc tả chỉ số, danh sách 10 event telemetry có `trace_id`), Nhiệm vụ E2 (Rủi ro kinh tế định lượng), hoàn thiện Hồ sơ Launch v0 (`ho_so_launch_v0.md`), tham gia Hội đồng duyệt chéo Gate 2a (`phieu_cham.md`), và phối hợp hoàn thành Nhiệm vụ C (Gắn nhãn độc lập 20 ca lỗi).
+
+### Đóng góp cụ thể
+
+- Thực hiện gắn nhãn độc lập 20 ca lỗi (CP3), đạt tỷ lệ đồng thuận ban đầu 90% (18/20 ca) với TV4, thống nhất căn cứ phân loại cho 2 ca lệch theo nguyên nhân gốc.
+- Đặc tả và tính toán chính xác 3 chỉ số trong đợt chạy thử (Chính: 82,83%; Dùng: 27,12%; An toàn: 4,25%), đề xuất 2 chỉ số mới về sử dụng và an toàn kiểm toán.
+- Thiết kế 10 event telemetry có `trace_id` liên kết trực tiếp với các chỉ số đo lường.
+- Lập bảng lượng hóa 3 rủi ro kinh tế lớn từ bảng độ nhạy kèm dấu hiệu theo dõi và vai trò phụ trách.
+- Tổng hợp Hồ sơ Launch v0 một trang chuẩn 7 mục, gắn nhãn trạng thái `Giả lập` chuẩn xác, đề xuất quyết định "Go có điều kiện" kèm 4 điều kiện ràng buộc cụ thể.
+- Hoàn thiện phiếu chấm hội đồng Gate 2a chấm phản biện nhóm bạn với thang điểm 30/30.
+
+### Bằng chứng
+
+- [Hồ sơ Launch v0](report/team/ho_so_launch_v0.md)
+- [Đặc tả chỉ số & Rủi ro kinh tế](report/team/chi_so.md)
+- [Bảng lỗi và cách khắc phục](report/team/bang_loi.md)
+- [Phiếu chấm hội đồng Gate 2a](report/team/phieu_cham.md)
+- [Báo cáo cá nhân](report/team/2A202603471_NguyenVanTung.md)
